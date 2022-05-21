@@ -1,0 +1,109 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-16T09:26:12.658Z",
+        "line": 3,
+        "name": "Successful Signin with Valid Credentials",
+        "description": "",
+        "id": "feature-to-test-signin-functionality;successful-signin-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NoSuchMethodError: \u0027void org.openqa.selenium.support.PageFactory.initElements(org.openqa.selenium.WebDriver, java.lang.Object)\u0027\r\n\tat pageObjects.SigninPage.\u003cinit\u003e(SigninPage.java:37)\r\n\tat stepDefinitions.Steps.user_launch_chrome_browser(Steps.java:23)\r\n\tat ✽.User Launch Chrome browser(file:///C:/Users/BOSHARAN/Documents/capgemini/java/Smarthospital_cucumber/./Features/Signin.feature:4)\r\n",
+              "duration": 1976407400,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User Launch Chrome browser",
+            "match": {
+              "location": "stepDefinitions.Steps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User opens URL \"https://demo.smart-hospital.in/site/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://demo.smart-hospital.in/site/login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_opens_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "click on Doctor",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_Doctor()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "click on Signin",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "click on Billing",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_Billing()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "click on path",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_path()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "close browser",
+            "match": {
+              "location": "stepDefinitions.Steps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test Signin functionality",
+    "description": "",
+    "id": "feature-to-test-signin-functionality",
+    "keyword": "Feature",
+    "uri": "file:Features/Signin.feature",
+    "tags": []
+  }
+]

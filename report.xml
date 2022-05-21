@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.183">
+    <testcase classname="feature to test Signin functionality" name="Successful Signin with Valid Credentials" time="2.034">
+        <failure message="'void org.openqa.selenium.support.PageFactory.initElements(org.openqa.selenium.WebDriver, java.lang.Object)'" type="java.lang.NoSuchMethodError"><![CDATA[Given User Launch Chrome browser............................................failed
+When User opens URL "https://demo.smart-hospital.in/site/login".............skipped
+Then click on Doctor........................................................skipped
+And click on Signin.........................................................skipped
+And click on Billing........................................................skipped
+And click on path...........................................................skipped
+And close browser...........................................................skipped
+
+StackTrace:
+java.lang.NoSuchMethodError: 'void org.openqa.selenium.support.PageFactory.initElements(org.openqa.selenium.WebDriver, java.lang.Object)'
+	at pageObjects.SigninPage.<init>(SigninPage.java:37)
+	at stepDefinitions.Steps.user_launch_chrome_browser(Steps.java:23)
+	at ✽.User Launch Chrome browser(file:///C:/Users/BOSHARAN/Documents/capgemini/java/Smarthospital_cucumber/./Features/Signin.feature:4)
+]]></failure>
+    </testcase>
+</testsuite>
